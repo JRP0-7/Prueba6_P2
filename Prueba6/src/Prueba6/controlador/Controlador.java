@@ -30,7 +30,7 @@ public class Controlador implements ActionListener {
             long desde = fecha(vista.txtDesde.getText());
             long hasta = fecha(vista.txtHasta.getText());
 
-            if(hasta<desde){
+            if(desde >=0 && hasta >=0 &&  hasta<desde){
                 JOptionPane.showMessageDialog(vista,"La fecha final no puede ir antes de la inicial");
                 return;
             }

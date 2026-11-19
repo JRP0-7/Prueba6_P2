@@ -75,7 +75,7 @@ public class VentanaPrincipal extends JFrame {
         panelDatos.add(txtHasta);
 
         JLabel lblProfundidad = new JLabel("Profundidad (0=ilimitada):");
-        txtProfundidad = new JTextField(5);
+        txtProfundidad = new JTextField("0", 5);
         panelDatos.add(lblProfundidad);
         panelDatos.add(txtProfundidad);
 
